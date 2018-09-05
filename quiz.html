@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="quiz.css"  />
+    <title>Star Test</title>
+
+    <link rel="stylesheet" type="text/css" href="quiz.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous"/>
@@ -9,17 +11,49 @@
     integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+"
     crossorigin="anonymous">
 
-    <title>Star Test</title>
+    <style>
+      html{
+        background-repeat: no-repeat;
+        background-image: linear-gradient(#C184FE, #9431F7);
+        height: 100%;
+        margin: 0px;
+        background-attachment: fixed;
+      }
+      body{
+        background-color: transparent;
+        color: white;
+        margin: 0;
+
+      }
+      h1, h2{
+        text-shadow: 2px 2px #000000;
+      }
+      #container{
+        font-size: 18px;
+        border: 5px, solid, black;
+        border-radius: 20px;
+        padding: 10px;
+      }
+      ul{
+        list-style: none;
+      }
+
+    </style>
+
   </head>
 
   <body>
     <div id='container' class="text-center">
+      <br/>
+      <br/>
       <div id='title'>
-        <h1 class="text-center text-primary">Star Expert?</h1>
+        <h1 class="text-center text-default">Star Expert?</h1>
         <h2 class="text-center">Test what you know</h2>
       </div>
         <br/>
+        <br/>
         <div id='quiz'></div>
+        <br/>
           <div class="row">
         <div class='button btn btn-primary' id='next'>Next <i class="fa fa-arrow-right"
           aria-hidden="true"></i><a href='#'></a></div>
